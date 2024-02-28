@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CDN of React -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- CDN of Babel -->
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Homework webpage</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+    let divStyle = {
+        backgroundImage:"linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(208,26,106,0.7008053221288515) 1%, rgba(23,8,17,0.33665966386554624) 92%, rgba(0,212,255,1) 100%)",
+        // color:"white",
+        fontSize:"1rem",
+        width:"50%",
+        margin:"0 auto",
+        
+        padding:"10px",
+        borderRadius:"10px"
+    };
+    let titleStyle = {
+        textAlign:"center"
+    }
+      let newDiv = (
+        // inline styiling in react
+        <div style={divStyle}> 
+          <h1 style={titleStyle}>Topics Covered</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, ad.
+          </p>
+          <br />
+          <div>
+            <a href="#">Getting Started With the web</a>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus, eligendi?
+            </p>
+          </div>
+          <div>
+            <a href="#">HTML -- Structuring the web</a>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed,
+              harum temporibus rem fugiat reprehenderit velit odit expedita
+              cupiditate nesciunt placeat, ad ex qui modi possimus assumenda
+              dolorum odio quidem autem omnis soluta eius suscipit. Nobis
+              mollitia magnam exercitationem reprehenderit praesentium!
+            </p>
+          </div>
+          <div>
+            <a href="#">CSS -- Styling the web</a>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
+              soluta placeat vero explicabo, maxime libero quia modi dolorem
+              enim omnis molestiae aut ipsum odit quis voluptatum repellendus
+              dolor. Ipsa ipsum dolores eos inventore, temporibus earum corporis
+              consequuntur eveniet reiciendis, voluptas doloribus, doloremque
+              deserunt unde sed sunt cumque rem quasi adipisci.
+            </p>
+          </div>
+        </div>
+      );
+
+      ReactDOM.render(newDiv, document.getElementById("root"));
+    </script>
+  </body>
+</html>

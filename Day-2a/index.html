@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!-- CDN of React -->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+<!-- CDN of Babel -->
+
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<title>Simple Web page using React</title>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+<script type="text/babel">
+
+// ReactDOM.createElement('div');
+let divRef = (<div>
+    <h1>Learn Web Development</h1>
+    <br/>
+    <div><p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magni labore nobis eligendi? Modi maiores doloribus voluptatibus minima reprehenderit dolorem!
+        </p>
+        <br/></div>
+
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates culpa sunt minus nobis, dolores tempora nam placeat laborum aperiam assumenda libero? <a href="#">the rest of CDN</a>, veritatis possimus adipisci quasi earum error quia vitae cupiditate eligendi nam! Libero corrupti numquam in?</p>
+        <br/></div>
+    
+        <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, adipisci odio! Et incidunt fugit amet non nihil ipsum dolorum ipsa quae in voluptatum quaerat veniam fuga, quod ullam ab animi commodi, temporibus facilis nam, quasi saepe doloremque est natus. Repellendus ipsam saepe temporibus tempore, quia accusamus harum ex, corporis, quae quo odit sequi? Dolor laboriosam qui nam doloremque veritatis blanditiis impedit, suscipit dolore eveniet laudantium aspernatur voluptas totam quisquam repudiandae assumenda quae deleniti labore ratione, atque ad fugiat beatae officia rem perspiciatis? Hic accusantium ipsum culpa, impedit quos rem unde voluptate ab sit necessitatibus aperiam, aliquid alias totam quaerat eum!</p></div>
+        
+    </div>);
+
+ReactDOM.render(divRef, document.getElementById("root"));
+
+</script>
+</html>
