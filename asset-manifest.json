@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/jsAssignments/Day-3a/geekfood/static/css/main.ad84f98e.css",
+    "main.js": "/jsAssignments/Day-3a/geekfood/static/js/main.495bbfc9.js",
+    "static/js/453.af66a239.chunk.js": "/jsAssignments/Day-3a/geekfood/static/js/453.af66a239.chunk.js",
+    "static/media/home.avif": "/jsAssignments/Day-3a/geekfood/static/media/home.eaf3d9a92a2cbdbecb94.avif",
+    "static/media/photo.avif": "/jsAssignments/Day-3a/geekfood/static/media/photo.0f9b4276757090e60570.avif",
+    "static/media/logo.svg": "/jsAssignments/Day-3a/geekfood/static/media/logo.82d32baeb6e96dbce158a48f8d0b0ea9.svg",
+    "index.html": "/jsAssignments/Day-3a/geekfood/index.html",
+    "main.ad84f98e.css.map": "/jsAssignments/Day-3a/geekfood/static/css/main.ad84f98e.css.map",
+    "main.495bbfc9.js.map": "/jsAssignments/Day-3a/geekfood/static/js/main.495bbfc9.js.map",
+    "453.af66a239.chunk.js.map": "/jsAssignments/Day-3a/geekfood/static/js/453.af66a239.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad84f98e.css",
+    "static/js/main.495bbfc9.js"
+  ]
+}
